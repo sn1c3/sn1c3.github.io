@@ -105,6 +105,8 @@ img.header-img {
     font-size: 16px;
     color: #333333;
     font-weight: 600;
+    margin-top: 0px;
+    margin-left: 60px;
 }
 
 .text-w-icon p {
@@ -117,6 +119,7 @@ img.header-img {
 
 .text-w-icon i {
     font-size: 33px;
+    max-width: 30px;
     float: left;
     margin-right: 30px;
     position: relative;
@@ -124,6 +127,8 @@ img.header-img {
 }
 .text-w-icon img {
     font-size: 33px;
+    width: 33px;
+    max-height: 30px;
     float: left;
     margin-right: 30px;
     position: relative;
