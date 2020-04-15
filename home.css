@@ -120,6 +120,13 @@ img.header-img {
     float: left;
     margin-right: 30px;
     position: relative;
+    color: #007bff;
+}
+.text-w-icon img {
+    font-size: 33px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
     color: black;
 }
 
@@ -156,3 +163,4 @@ img.header-img {
     font-weight: 500;
     float: left;
 }
+
