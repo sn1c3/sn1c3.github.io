@@ -1,10 +1,15 @@
 var body = document.querySelector("body");
 
+checkWidth();
 
-window.addEventListener('resize', function(){
-    if(window.innerWidth < 576){
+window.addEventListener('resize', function () {
+    checkWidth();
+});
+
+function checkWidth() {
+    if (window.innerWidth < 576) {
         body.style.paddingTop = "56px";
-    }else{
+    } else {
         body.style.paddingTop = "136px";
     }
-});
+}
